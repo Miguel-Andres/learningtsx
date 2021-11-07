@@ -1,4 +1,4 @@
-import { clear } from "console";
+
 import { useEffect, useRef, useState } from "react"
 
 type TimerProps ={

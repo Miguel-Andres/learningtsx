@@ -1,3 +1,4 @@
+import { ContadorRed } from "./components/ContadorRed";
 import { Counter } from "./components/Counter";
 import { TimerPadre } from "./components/TimerPadre";
 
@@ -17,6 +18,9 @@ function App() {
     
     <TimerPadre/>
 
+    <h2>UseReducer</h2>
+    <hr/>
+      <ContadorRed/>
     </>
   );
 }
